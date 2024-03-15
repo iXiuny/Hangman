@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Hangman0livesleft.png" />
+    <None Remove="Images\Hangman10livesleft.png" />
+    <None Remove="Images\Hangman1livesleft.png" />
+    <None Remove="Images\Hangman2livesleft.png" />
+    <None Remove="Images\Hangman3livesleft.png" />
+    <None Remove="Images\Hangman4livesleft.png" />
+    <None Remove="Images\Hangman5livesleft.png" />
+    <None Remove="Images\Hangman6livesleft.png" />
+    <None Remove="Images\Hangman7livesleft.png" />
+    <None Remove="Images\Hangman8livesleft.png" />
+    <None Remove="Images\Hangman9livesleft.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Hangman0livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman10livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Hangman1livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman2livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman3livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman4livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman5livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman6livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman7livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman8livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Hangman9livesleft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
